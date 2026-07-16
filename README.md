@@ -11,3 +11,7 @@ or notification channels belong here.
 
 The lab is evidence, not authority. A passing lab run cannot change an
 organization ruleset or mint a production credential.
+
+`pull-request-target-containment.yml` is a public, no-secret probe for GitHub
+`pull_request_target` semantics. It reads a declared candidate Markdown
+sentinel as data only; it never executes candidate code or writes to GitHub.
