@@ -1,0 +1,2 @@
+This inert file is the live ALLOW canary for a candidate HELM authority generation.
+It has no runtime, network, credential, deployment, or production effect.
