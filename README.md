@@ -1,5 +1,11 @@
 # Autonomous Release Conformance Lab
 
+> **Archived.** The autonomous release permit this lab tested was retired on
+> 2026-09-24 by the agent-delivery model (`docs/architecture/agent-delivery.md`
+> in Mindburn-Labs/docs). This repository is kept as a read-only historical
+> record and is no longer maintained. Archiving it on GitHub is the owner's
+> decision.
+
 This public repository is a deliberately non-production target for proving the
 Mindburn Labs autonomous release permit against real GitHub pull requests.
 
