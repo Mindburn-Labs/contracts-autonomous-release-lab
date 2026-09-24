@@ -1,6 +1,9 @@
 SHELL := /usr/bin/env bash
 
-.PHONY: setup lint test build
+# CI runs `make check` (platform-actions ci.yml v2, public copy in Mindburn-Labs/.github).
+check: lint test
+
+.PHONY: check setup lint test build
 
 setup:
 	@python3 --version

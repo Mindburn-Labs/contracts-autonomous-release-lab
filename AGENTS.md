@@ -6,3 +6,5 @@
 - Expected `DENY` and pre-model rejection runs are successful test evidence even
   though the GitHub check conclusion is failure.
 - Do not activate or edit organization rulesets from this repository.
+- `make check` is what CI runs: it byte-compiles the scripts, validates
+  `lab-manifest.json` and runs the unit tests.
